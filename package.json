@@ -1,0 +1,35 @@
+{
+  "name": "simple-prompt",
+  "version": "0.0.0",
+  "description": "My sweet module",
+  "license": "MIT",
+  "repository": "abrelsfo/simpleprompt",
+  "author": {
+    "name": "abrelsfo",
+    "email": "alexbrelsford@gmail.com",
+    "url": "abrelsfo.github.io"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "xo": "^0.12.1"
+  }
+}
